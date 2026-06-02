@@ -7,7 +7,7 @@ class @Cleaner
     @users = Object.keys @content.users
     @index = 0
     @guest_limit = Date.now() - 15*24*3600*1000
-    @user_limit = Date.now() - 545*24*3600*1000
+    @user_limit = Date.now() - 365*24*3600*1000
     @deleted = 0
     @deleted_projects = 0
     @deleted_users = 0
